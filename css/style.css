@@ -10,12 +10,12 @@ body {
 
 h1 {
   background-color: rgb(249, 83, 133);
-  color: hsl(3deg, 99%, 28%);
+  color: hsl(200deg, 95%, 14%);
   padding: 40px;
   text-align: center;
 }
 
 p {
-  background-color: #8D0801;
-  color: #fff;
+  background-color: #ff759f;
+  color: #050505;
 }
