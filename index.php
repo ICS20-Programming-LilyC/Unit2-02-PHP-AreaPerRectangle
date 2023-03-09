@@ -26,13 +26,13 @@
 echo "<p>The area of a rectangle with dimensions $length cm x $width cm = " . ($length * $width) . "cm<sup>2</sup></p>";
     ?>
 
-  <!--Calculator-->
-   <form method = "post">   
+    <!--Calculator-->
+    <form method = "post">   
       Width: <input type="number" name="width">   
       <br><br>   
-      Length: <input type="number" name="length"> <br><br>  
-      <input type = "submit" name = "submit" value="Calculate">   
-    </form>   
+      Length: <input type="number" name="length"> <br><br>
+      <input type = "submit" name = "submit" value="Calculate">
+    </form>
     
     <?php   
       if(isset($_POST['submit']))  
